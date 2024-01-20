@@ -16,4 +16,4 @@ for (let i = 0; i < friend.length; i++)
 //Using a loop automates letter-by-letter name encryption for consistency and adaptability.
 
 //Explain the role of % alphabet.length in our loop. How does it aid in the encryption process?
-//"The % operator ensures continuous encryption by wrapping to 'a' after 'z'."
+//The % operator ensures continuous encryption by wrapping to 'a' after 'z'.
