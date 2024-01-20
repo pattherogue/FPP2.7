@@ -11,3 +11,9 @@ for (let i = 0; i < friend.length; i++)
   const newIndex = (currentIndex + shiftValue) % alphabet.length;
   encryptedName += alphabet[newIndex].toUpperCase();
 }
+
+//What advantage does using a loop provide over manually encrypting each letter?
+//Using a loop automates letter-by-letter name encryption for consistency and adaptability.
+
+//Explain the role of % alphabet.length in our loop. How does it aid in the encryption process?
+//"The % operator ensures continuous encryption by wrapping to 'a' after 'z'."
